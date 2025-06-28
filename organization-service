@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/organization_db
+spring.datasource.username=postgres
+spring.datasource.password=Saparbek
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+spring.jpa.hibernate.ddl-auto=update
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+
+server.port=8083
+
+spring.boot.message=Hi from Organization Service.
